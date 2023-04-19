@@ -1,0 +1,4 @@
+sudo su
+sync; echo 0 >  /proc/sys/kernel/kptr_restrict
+/opt/intel/oneapi/vtune/latest/bin64
+./vtune-gui
